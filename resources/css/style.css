@@ -150,18 +150,15 @@ footer p {
 }
 
 
-/* adjustments for smaller screens */
-
-
-/* tablet sized portrait orientation */
+/* tablet size portrait*/
 
 @media only screen and (max-width: 1024px) {
-  /* substitute a button for the complete navigation */
+
   nav li {
     display: none
   }
   
-  /* adjust larger items */
+ 
   .container {
     width: 100%;
   }
@@ -213,10 +210,4 @@ footer p {
   }
 }
 
-/* tiny screens */
-@media only screen and (max-width: 415px) {
-  h3 {
-    font-size: 0.77rem;
-  }
-}
 
